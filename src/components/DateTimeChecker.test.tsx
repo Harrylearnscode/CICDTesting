@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { validateDate } from './DateTimeChecker';
+import { validateDate } from '../utils/dateValidation';
 
 describe('validateDate', () => {
   const currentYear = new Date().getFullYear();
